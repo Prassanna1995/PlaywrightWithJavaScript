@@ -16,5 +16,6 @@
 //var is function Scope and let and const are block scope
 console.log(x);
 var x =100;
+//let x = 100;
 console.log(x);
 
