@@ -14,8 +14,17 @@
 
 
 //var is function Scope and let and const are block scope
-console.log(x);
+//console.log(x);
 var x =100;
 //let x = 100;
-console.log(x);
-
+console.log(typeof(x));
+let price = 110.98;
+console.log(typeof(price));
+let studentName = "John Doe";
+console.log(typeof(studentName));
+let isAvailable = true;
+console.log(typeof(isAvailable));
+let data = null;
+console.log(typeof(data));
+let undefinedVariable;
+console.log(typeof(undefinedVariable));
